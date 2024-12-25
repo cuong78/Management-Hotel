@@ -1,0 +1,122 @@
+﻿<Window x:Class="HotelV3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HotelV3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
+    <Window.Resources>
+        <Style TargetType="Button" x:Key="StyledButton">
+            <Setter Property="Background" Value="#4CAF50"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" 
+                                CornerRadius="5" 
+                                BorderBrush="Transparent" 
+                                BorderThickness="1">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#45A049"/>
+                    <Setter Property="RenderTransformOrigin" Value="0.5,0.5"/>
+                    <Setter Property="RenderTransform">
+                        <Setter.Value>
+                            <ScaleTransform ScaleX="1.1" ScaleY="1.1"/>
+                        </Setter.Value>
+                    </Setter>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style TargetType="Label">
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="Margin" Value="5"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <StackPanel Background="MistyRose" Width="250" HorizontalAlignment="Left" VerticalAlignment="Stretch">
+            <!-- Header -->
+            <StackPanel Background="MistyRose" Height="75">
+                <Label Content="&#xD;&#xA;HOTEL MANAGER" FontSize="14" FontWeight="Bold" HorizontalAlignment="Center" Foreground="Black" Height="71"/>
+            </StackPanel>
+
+            <!-- Buttons -->
+            <Button Style="{StaticResource StyledButton}" x:Name="btnMember" Click="btnMember_Click" Height="80">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Member" VerticalAlignment="Center" FontSize="12" Foreground="Black"/>
+                </StackPanel>
+            </Button>
+            <Button Style="{StaticResource StyledButton}" x:Name="btnService" Click="btnService_Click" Height="80">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Service" VerticalAlignment="Center" FontSize="12" Foreground="Black"/>
+                </StackPanel>
+            </Button>
+            <Button Style="{StaticResource StyledButton}" x:Name="invoiceListButton"   Height="80" Click="invoiceListButton_Click">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Invoice List" VerticalAlignment="Center" FontSize="12" Foreground="Black"/>
+                </StackPanel>
+            </Button>
+            <Button Style="{StaticResource StyledButton}" x:Name="btnLogout" Content="Log out" FontSize="12" Click="btnLogout_Click" Height="69"/>
+        </StackPanel>
+
+        <!-- Top Panel -->
+        <DockPanel Background="MistyRose" Height="75" VerticalAlignment="Top" Margin="250,0,0,0">
+            <Label x:Name="HelloMsgLabel" Content="HOME" FontSize="16" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Black"/>
+        </DockPanel>
+
+        <!-- Content Area -->
+        <Grid x:Name="panelDesktop" Margin="250,75,0,0" Background="White">
+            <!-- Room Buttons -->
+            <UniformGrid Columns="5" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10">
+                <!-- Room Buttons -->
+                <Button x:Name="room100" Width="90" Height="40" Tag="100" Content="100" Click="Room_Click"/>
+                <Button x:Name="room101" Tag="101" Content="101" Click="Room_Click"/>
+                <Button x:Name="room102" Tag="102" Content="102" Click="Room_Click"/>
+                <Button x:Name="room103" Tag="103" Content="103" Click="Room_Click"/>
+                <Button x:Name="room104" Tag="104" Content="104" Click="Room_Click"/>
+                <Button x:Name="room200" Tag="200" Content="200" Click="Room_Click"/>
+                <Button x:Name="room201" Tag="201" Content="201" Click="Room_Click"/>
+                <Button x:Name="room202" Tag="202" Content="202" Click="Room_Click"/>
+                <Button x:Name="room203" Tag="203" Content="203" Click="Room_Click"/>
+                <Button x:Name="room204" Tag="204" Content="204" Click="Room_Click"/>
+                <Button x:Name="room301" Tag="301" Content="301" Click="Room_Click"/>
+                <Button x:Name="room302" Tag="302" Content="302" Click="Room_Click"/>
+                <Button x:Name="room303" Tag="303" Content="303" Click="Room_Click"/>
+                <Button x:Name="room304" Tag="304" Content="304" Click="Room_Click"/>
+                <Button x:Name="room400" Tag="400" Content="400" Click="Room_Click"/>
+                <Button x:Name="room401" Tag="401" Content="401" Click="Room_Click"/>
+                <Button x:Name="room402" Tag="402" Content="402" Click="Room_Click"/>
+                <Button x:Name="room403" Tag="403" Content="403" Click="Room_Click"/>
+                <Button x:Name="room404" Tag="404" Content="404" Click="Room_Click"/>
+                <Button x:Name="room500" Tag="500" Content="500" Click="Room_Click"/>
+                <Button x:Name="room501" Tag="501" Content="501" Click="Room_Click"/>
+                <Button x:Name="room502" Tag="502" Content="502" Click="Room_Click"/>
+                <Button x:Name="room503" Tag="503" Content="503" Click="Room_Click"/>
+                <Button x:Name="room504" Tag="504" Content="504" Click="Room_Click"/>
+                <Button x:Name="room600" Tag="600" Content="600" Click="Room_Click"/>
+                <Button x:Name="room601" Tag="601" Content="601" Click="Room_Click"/>
+                <Button x:Name="room602" Tag="602" Content="602" Click="Room_Click"/>
+                <Button x:Name="room603" Tag="603" Content="603" Click="Room_Click"/>
+                <Button x:Name="room604" Tag="604" Content="604" Click="Room_Click"/>
+                <Button x:Name="room700" Tag="700" Content="700" Click="Room_Click"/>
+                <Button x:Name="room701" Tag="701" Content="701" Click="Room_Click"/>
+                <Button x:Name="room702" Tag="702" Content="702" Click="Room_Click"/>
+                <Button x:Name="room703" Tag="703" Content="703" Click="Room_Click"/>
+                <Button x:Name="room704" Tag="704" Content="704" Click="Room_Click"/>
+                <Button x:Name="room705" Tag="705" Content="705" Click="Room_Click"/>
+            </UniformGrid>
+        </Grid>
+    </Grid>
+</Window>

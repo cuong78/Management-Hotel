@@ -1,0 +1,783 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\HotelV3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|e:\\hotelv3\\hotelv3\\listinformation.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|solutionrelative:hotelv3\\listinformation.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C5EDA4F-F82D-45D6-ADA9-736E78E37C8D}|BLL\\BLL.csproj|e:\\hotelv3\\bll\\service\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C5EDA4F-F82D-45D6-ADA9-736E78E37C8D}|BLL\\BLL.csproj|solutionrelative:bll\\service\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|e:\\hotelv3\\hotelv3\\listinformation.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|solutionrelative:hotelv3\\listinformation.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7951EF5D-5388-4178-AFA1-33E8EF220064}|DAL\\DAL.csproj|e:\\hotelv3\\dal\\repositories\\booklistrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7951EF5D-5388-4178-AFA1-33E8EF220064}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\booklistrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|e:\\hotelv3\\hotelv3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|solutionrelative:hotelv3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7951EF5D-5388-4178-AFA1-33E8EF220064}|DAL\\DAL.csproj|e:\\hotelv3\\dal\\models\\hotel3context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7951EF5D-5388-4178-AFA1-33E8EF220064}|DAL\\DAL.csproj|solutionrelative:dal\\models\\hotel3context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7951EF5D-5388-4178-AFA1-33E8EF220064}|DAL\\DAL.csproj|e:\\hotelv3\\dal\\models\\bookedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7951EF5D-5388-4178-AFA1-33E8EF220064}|DAL\\DAL.csproj|solutionrelative:dal\\models\\bookedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|e:\\hotelv3\\hotelv3\\forgotpassword.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|solutionrelative:hotelv3\\forgotpassword.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|e:\\hotelv3\\hotelv3\\resetpassword.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|solutionrelative:hotelv3\\resetpassword.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|e:\\hotelv3\\hotelv3\\bookedroomwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|solutionrelative:hotelv3\\bookedroomwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|e:\\hotelv3\\hotelv3\\bookedroomwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|solutionrelative:hotelv3\\bookedroomwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7951EF5D-5388-4178-AFA1-33E8EF220064}|DAL\\DAL.csproj|e:\\hotelv3\\dal\\models\\booked.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7951EF5D-5388-4178-AFA1-33E8EF220064}|DAL\\DAL.csproj|solutionrelative:dal\\models\\booked.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7951EF5D-5388-4178-AFA1-33E8EF220064}|DAL\\DAL.csproj|e:\\hotelv3\\dal\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7951EF5D-5388-4178-AFA1-33E8EF220064}|DAL\\DAL.csproj|solutionrelative:dal\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7951EF5D-5388-4178-AFA1-33E8EF220064}|DAL\\DAL.csproj|e:\\hotelv3\\dal\\repositories\\memberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7951EF5D-5388-4178-AFA1-33E8EF220064}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\memberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|e:\\hotelv3\\hotelv3\\detailmember.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|solutionrelative:hotelv3\\detailmember.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|e:\\hotelv3\\hotelv3\\detailmember.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|solutionrelative:hotelv3\\detailmember.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7951EF5D-5388-4178-AFA1-33E8EF220064}|DAL\\DAL.csproj|e:\\hotelv3\\dal\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7951EF5D-5388-4178-AFA1-33E8EF220064}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|e:\\hotelv3\\hotelv3\\memberwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|solutionrelative:hotelv3\\memberwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|e:\\hotelv3\\hotelv3\\memberwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|solutionrelative:hotelv3\\memberwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|e:\\hotelv3\\hotelv3\\roomoptionswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|solutionrelative:hotelv3\\roomoptionswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|e:\\hotelv3\\hotelv3\\servicewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|solutionrelative:hotelv3\\servicewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|e:\\hotelv3\\hotelv3\\forgotpassword.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|solutionrelative:hotelv3\\forgotpassword.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C5EDA4F-F82D-45D6-ADA9-736E78E37C8D}|BLL\\BLL.csproj|e:\\hotelv3\\bll\\service\\memberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C5EDA4F-F82D-45D6-ADA9-736E78E37C8D}|BLL\\BLL.csproj|solutionrelative:bll\\service\\memberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/ANH_CUONG_SQL_ANHCUONG/Hotel3/sa/SqlTable/dbo.Member.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|e:\\hotelv3\\hotelv3\\hoadonwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|solutionrelative:hotelv3\\hoadonwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|e:\\hotelv3\\hotelv3\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|solutionrelative:hotelv3\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|e:\\hotelv3\\hotelv3\\servicewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|solutionrelative:hotelv3\\servicewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|e:\\hotelv3\\hotelv3\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|solutionrelative:hotelv3\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|e:\\hotelv3\\hotelv3\\createser.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|solutionrelative:hotelv3\\createser.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|e:\\hotelv3\\hotelv3\\resetpassword.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|solutionrelative:hotelv3\\resetpassword.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|e:\\hotelv3\\hotelv3\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|solutionrelative:hotelv3\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|e:\\hotelv3\\hotelv3\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|solutionrelative:hotelv3\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|e:\\hotelv3\\hotelv3\\checkoutwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|solutionrelative:hotelv3\\checkoutwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|e:\\hotelv3\\hotelv3\\createser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|solutionrelative:hotelv3\\createser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|e:\\hotelv3\\hotelv3\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|solutionrelative:hotelv3\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|e:\\hotelv3\\hotelv3\\hoadonwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|solutionrelative:hotelv3\\hoadonwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7951EF5D-5388-4178-AFA1-33E8EF220064}|DAL\\DAL.csproj|e:\\hotelv3\\dal\\models\\bookedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7951EF5D-5388-4178-AFA1-33E8EF220064}|DAL\\DAL.csproj|solutionrelative:dal\\models\\bookedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7951EF5D-5388-4178-AFA1-33E8EF220064}|DAL\\DAL.csproj|e:\\hotelv3\\dal\\repositories\\servicerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7951EF5D-5388-4178-AFA1-33E8EF220064}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\servicerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C5EDA4F-F82D-45D6-ADA9-736E78E37C8D}|BLL\\BLL.csproj|e:\\hotelv3\\bll\\service\\servicedetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C5EDA4F-F82D-45D6-ADA9-736E78E37C8D}|BLL\\BLL.csproj|solutionrelative:bll\\service\\servicedetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7951EF5D-5388-4178-AFA1-33E8EF220064}|DAL\\DAL.csproj|e:\\hotelv3\\dal\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7951EF5D-5388-4178-AFA1-33E8EF220064}|DAL\\DAL.csproj|solutionrelative:dal\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7951EF5D-5388-4178-AFA1-33E8EF220064}|DAL\\DAL.csproj|e:\\hotelv3\\dal\\repositories\\servicedetailrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7951EF5D-5388-4178-AFA1-33E8EF220064}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\servicedetailrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C5EDA4F-F82D-45D6-ADA9-736E78E37C8D}|BLL\\BLL.csproj|e:\\hotelv3\\bll\\service\\servicesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C5EDA4F-F82D-45D6-ADA9-736E78E37C8D}|BLL\\BLL.csproj|solutionrelative:bll\\service\\servicesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/ANH_CUONG_SQL_ANHCUONG/Hotel3/sa/SqlTable/dbo.Service.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7951EF5D-5388-4178-AFA1-33E8EF220064}|DAL\\DAL.csproj|e:\\hotelv3\\dal\\repositories\\roomrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7951EF5D-5388-4178-AFA1-33E8EF220064}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\roomrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|e:\\hotelv3\\hotelv3\\roomoptionswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|solutionrelative:hotelv3\\roomoptionswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|e:\\hotelv3\\hotelv3\\checkoutwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB4433F-5143-4370-9468-DC6A9574B067}|HotelV3\\HotelV3.csproj|solutionrelative:hotelv3\\checkoutwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C5EDA4F-F82D-45D6-ADA9-736E78E37C8D}|BLL\\BLL.csproj|e:\\hotelv3\\bll\\service\\roomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C5EDA4F-F82D-45D6-ADA9-736E78E37C8D}|BLL\\BLL.csproj|solutionrelative:bll\\service\\roomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIN\\AppData\\Local\\Temp\\uedfpcoo..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ListInformation.xaml.cs",
+              "DocumentMoniker": "E:\\HotelV3\\HotelV3\\ListInformation.xaml.cs",
+              "RelativeDocumentMoniker": "HotelV3\\ListInformation.xaml.cs",
+              "ToolTip": "E:\\HotelV3\\HotelV3\\ListInformation.xaml.cs",
+              "RelativeToolTip": "HotelV3\\ListInformation.xaml.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAowDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T13:51:39.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Hotel3Context.cs",
+              "DocumentMoniker": "E:\\HotelV3\\DAL\\Models\\Hotel3Context.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\Hotel3Context.cs",
+              "ToolTip": "E:\\HotelV3\\DAL\\Models\\Hotel3Context.cs",
+              "RelativeToolTip": "DAL\\Models\\Hotel3Context.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T14:45:30.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Booked.cs",
+              "DocumentMoniker": "E:\\HotelV3\\DAL\\Models\\Booked.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\Booked.cs",
+              "ToolTip": "E:\\HotelV3\\DAL\\Models\\Booked.cs",
+              "RelativeToolTip": "DAL\\Models\\Booked.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwA8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T09:48:40.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\HotelV3\\HotelV3\\appsettings.json",
+              "RelativeDocumentMoniker": "HotelV3\\appsettings.json",
+              "ToolTip": "E:\\HotelV3\\HotelV3\\appsettings.json",
+              "RelativeToolTip": "HotelV3\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-13T21:54:46.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ListInformation.xaml",
+              "DocumentMoniker": "E:\\HotelV3\\HotelV3\\ListInformation.xaml",
+              "RelativeDocumentMoniker": "HotelV3\\ListInformation.xaml",
+              "ToolTip": "E:\\HotelV3\\HotelV3\\ListInformation.xaml",
+              "RelativeToolTip": "HotelV3\\ListInformation.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-13T13:29:54.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "E:\\HotelV3\\BLL\\Service\\BookService.cs",
+              "RelativeDocumentMoniker": "BLL\\Service\\BookService.cs",
+              "ToolTip": "E:\\HotelV3\\BLL\\Service\\BookService.cs",
+              "RelativeToolTip": "BLL\\Service\\BookService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAowCYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T01:31:40.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ResetPassword.xaml.cs",
+              "DocumentMoniker": "E:\\HotelV3\\HotelV3\\ResetPassword.xaml.cs",
+              "RelativeDocumentMoniker": "HotelV3\\ResetPassword.xaml.cs",
+              "ToolTip": "E:\\HotelV3\\HotelV3\\ResetPassword.xaml.cs",
+              "RelativeToolTip": "HotelV3\\ResetPassword.xaml.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T20:08:53.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BookedRoomWindow.xaml",
+              "DocumentMoniker": "E:\\HotelV3\\HotelV3\\BookedRoomWindow.xaml",
+              "RelativeDocumentMoniker": "HotelV3\\BookedRoomWindow.xaml",
+              "ToolTip": "E:\\HotelV3\\HotelV3\\BookedRoomWindow.xaml",
+              "RelativeToolTip": "HotelV3\\BookedRoomWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-12T01:36:04.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BookListRepo.cs",
+              "DocumentMoniker": "E:\\HotelV3\\DAL\\Repositories\\BookListRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repositories\\BookListRepo.cs",
+              "ToolTip": "E:\\HotelV3\\DAL\\Repositories\\BookListRepo.cs",
+              "RelativeToolTip": "DAL\\Repositories\\BookListRepo.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwCMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T13:33:50.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BookedList.cs",
+              "DocumentMoniker": "E:\\HotelV3\\DAL\\Models\\BookedList.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\BookedList.cs",
+              "ToolTip": "E:\\HotelV3\\DAL\\Models\\BookedList.cs",
+              "RelativeToolTip": "DAL\\Models\\BookedList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T10:36:03.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ForgotPassword.xaml.cs",
+              "DocumentMoniker": "E:\\HotelV3\\HotelV3\\ForgotPassword.xaml.cs",
+              "RelativeDocumentMoniker": "HotelV3\\ForgotPassword.xaml.cs",
+              "ToolTip": "E:\\HotelV3\\HotelV3\\ForgotPassword.xaml.cs",
+              "RelativeToolTip": "HotelV3\\ForgotPassword.xaml.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAqwE4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:45:16.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BookedRoomWindow.xaml.cs",
+              "DocumentMoniker": "E:\\HotelV3\\HotelV3\\BookedRoomWindow.xaml.cs",
+              "RelativeDocumentMoniker": "HotelV3\\BookedRoomWindow.xaml.cs",
+              "ToolTip": "E:\\HotelV3\\HotelV3\\BookedRoomWindow.xaml.cs",
+              "RelativeToolTip": "HotelV3\\BookedRoomWindow.xaml.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAuwKoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T01:37:33.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Member.cs",
+              "DocumentMoniker": "E:\\HotelV3\\DAL\\Models\\Member.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\Member.cs",
+              "ToolTip": "E:\\HotelV3\\DAL\\Models\\Member.cs",
+              "RelativeToolTip": "DAL\\Models\\Member.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAIwBkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T20:15:50.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MemberRepository.cs",
+              "DocumentMoniker": "E:\\HotelV3\\DAL\\Repositories\\MemberRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\Repositories\\MemberRepository.cs",
+              "ToolTip": "E:\\HotelV3\\DAL\\Repositories\\MemberRepository.cs",
+              "RelativeToolTip": "DAL\\Repositories\\MemberRepository.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAA7wEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T01:30:33.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "E:\\HotelV3\\DAL\\Repositories\\BookRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\Repositories\\BookRepository.cs",
+              "ToolTip": "E:\\HotelV3\\DAL\\Repositories\\BookRepository.cs",
+              "RelativeToolTip": "DAL\\Repositories\\BookRepository.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwBQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T01:30:12.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DetailMember.xaml.cs",
+              "DocumentMoniker": "E:\\HotelV3\\HotelV3\\DetailMember.xaml.cs",
+              "RelativeDocumentMoniker": "HotelV3\\DetailMember.xaml.cs",
+              "ToolTip": "E:\\HotelV3\\HotelV3\\DetailMember.xaml.cs",
+              "RelativeToolTip": "HotelV3\\DetailMember.xaml.cs",
+              "ViewState": "AgIAAOgAAAAAAAAAAAAuwP0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T01:46:17.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DetailMember.xaml",
+              "DocumentMoniker": "E:\\HotelV3\\HotelV3\\DetailMember.xaml",
+              "RelativeDocumentMoniker": "HotelV3\\DetailMember.xaml",
+              "ToolTip": "E:\\HotelV3\\HotelV3\\DetailMember.xaml",
+              "RelativeToolTip": "HotelV3\\DetailMember.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-12T01:33:46.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MemberWindow.xaml",
+              "DocumentMoniker": "E:\\HotelV3\\HotelV3\\MemberWindow.xaml",
+              "RelativeDocumentMoniker": "HotelV3\\MemberWindow.xaml",
+              "ToolTip": "E:\\HotelV3\\HotelV3\\MemberWindow.xaml",
+              "RelativeToolTip": "HotelV3\\MemberWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-12T01:57:18.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MemberWindow.xaml.cs",
+              "DocumentMoniker": "E:\\HotelV3\\HotelV3\\MemberWindow.xaml.cs",
+              "RelativeDocumentMoniker": "HotelV3\\MemberWindow.xaml.cs",
+              "ToolTip": "E:\\HotelV3\\HotelV3\\MemberWindow.xaml.cs",
+              "RelativeToolTip": "HotelV3\\MemberWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T01:57:38.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RoomOptionsWindow.xaml",
+              "DocumentMoniker": "E:\\HotelV3\\HotelV3\\RoomOptionsWindow.xaml",
+              "RelativeDocumentMoniker": "HotelV3\\RoomOptionsWindow.xaml",
+              "ToolTip": "E:\\HotelV3\\HotelV3\\RoomOptionsWindow.xaml",
+              "RelativeToolTip": "HotelV3\\RoomOptionsWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-12T02:42:46.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ServiceWindow.xaml",
+              "DocumentMoniker": "E:\\HotelV3\\HotelV3\\ServiceWindow.xaml",
+              "RelativeDocumentMoniker": "HotelV3\\ServiceWindow.xaml",
+              "ToolTip": "E:\\HotelV3\\HotelV3\\ServiceWindow.xaml",
+              "RelativeToolTip": "HotelV3\\ServiceWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-12T02:00:26.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ForgotPassword.xaml",
+              "DocumentMoniker": "E:\\HotelV3\\HotelV3\\ForgotPassword.xaml",
+              "RelativeDocumentMoniker": "HotelV3\\ForgotPassword.xaml",
+              "ToolTip": "E:\\HotelV3\\HotelV3\\ForgotPassword.xaml",
+              "RelativeToolTip": "HotelV3\\ForgotPassword.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-13T19:42:46.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MemberService.cs",
+              "DocumentMoniker": "E:\\HotelV3\\BLL\\Service\\MemberService.cs",
+              "RelativeDocumentMoniker": "BLL\\Service\\MemberService.cs",
+              "ToolTip": "E:\\HotelV3\\BLL\\Service\\MemberService.cs",
+              "RelativeToolTip": "BLL\\Service\\MemberService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T01:31:44.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "dbo.Member.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/ANH_CUONG_SQL_ANHCUONG/Hotel3/sa/SqlTable/dbo.Member.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/ANH_CUONG_SQL_ANHCUONG/Hotel3/sa/SqlTable/dbo.Member.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-11-14T06:16:42.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "HoaDonWindow.xaml",
+              "DocumentMoniker": "E:\\HotelV3\\HotelV3\\HoaDonWindow.xaml",
+              "RelativeDocumentMoniker": "HotelV3\\HoaDonWindow.xaml",
+              "ToolTip": "E:\\HotelV3\\HotelV3\\HoaDonWindow.xaml",
+              "RelativeToolTip": "HotelV3\\HoaDonWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-12T01:34:41.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "E:\\HotelV3\\HotelV3\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "HotelV3\\LoginWindow.xaml",
+              "ToolTip": "E:\\HotelV3\\HotelV3\\LoginWindow.xaml",
+              "RelativeToolTip": "HotelV3\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-12T01:32:52.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\HotelV3\\HotelV3\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "HotelV3\\MainWindow.xaml.cs",
+              "ToolTip": "E:\\HotelV3\\HotelV3\\MainWindow.xaml.cs",
+              "RelativeToolTip": "HotelV3\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T01:20:27.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ServiceWindow.xaml.cs",
+              "DocumentMoniker": "E:\\HotelV3\\HotelV3\\ServiceWindow.xaml.cs",
+              "RelativeDocumentMoniker": "HotelV3\\ServiceWindow.xaml.cs",
+              "ToolTip": "E:\\HotelV3\\HotelV3\\ServiceWindow.xaml.cs",
+              "RelativeToolTip": "HotelV3\\ServiceWindow.xaml.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwCEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T02:00:49.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CreateSer.xaml.cs",
+              "DocumentMoniker": "E:\\HotelV3\\HotelV3\\CreateSer.xaml.cs",
+              "RelativeDocumentMoniker": "HotelV3\\CreateSer.xaml.cs",
+              "ToolTip": "E:\\HotelV3\\HotelV3\\CreateSer.xaml.cs",
+              "RelativeToolTip": "HotelV3\\CreateSer.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T01:44:05.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ResetPassword.xaml",
+              "DocumentMoniker": "E:\\HotelV3\\HotelV3\\ResetPassword.xaml",
+              "RelativeDocumentMoniker": "HotelV3\\ResetPassword.xaml",
+              "ToolTip": "E:\\HotelV3\\HotelV3\\ResetPassword.xaml",
+              "RelativeToolTip": "HotelV3\\ResetPassword.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-13T20:06:38.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "E:\\HotelV3\\HotelV3\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "HotelV3\\LoginWindow.xaml.cs",
+              "ToolTip": "E:\\HotelV3\\HotelV3\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "HotelV3\\LoginWindow.xaml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAowEgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T01:49:35.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\HotelV3\\HotelV3\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "HotelV3\\MainWindow.xaml",
+              "ToolTip": "E:\\HotelV3\\HotelV3\\MainWindow.xaml",
+              "RelativeToolTip": "HotelV3\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-12T01:20:30.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CreateSer.xaml",
+              "DocumentMoniker": "E:\\HotelV3\\HotelV3\\CreateSer.xaml",
+              "RelativeDocumentMoniker": "HotelV3\\CreateSer.xaml",
+              "ToolTip": "E:\\HotelV3\\HotelV3\\CreateSer.xaml",
+              "RelativeToolTip": "HotelV3\\CreateSer.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-12T01:35:07.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CheckOutWindow.xaml",
+              "DocumentMoniker": "E:\\HotelV3\\HotelV3\\CheckOutWindow.xaml",
+              "RelativeDocumentMoniker": "HotelV3\\CheckOutWindow.xaml",
+              "ToolTip": "E:\\HotelV3\\HotelV3\\CheckOutWindow.xaml",
+              "RelativeToolTip": "HotelV3\\CheckOutWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-12T01:35:36.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "App.xaml",
+              "DocumentMoniker": "E:\\HotelV3\\HotelV3\\App.xaml",
+              "RelativeDocumentMoniker": "HotelV3\\App.xaml",
+              "ToolTip": "E:\\HotelV3\\HotelV3\\App.xaml",
+              "RelativeToolTip": "HotelV3\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-13T16:03:23.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "HoaDonWindow.xaml.cs",
+              "DocumentMoniker": "E:\\HotelV3\\HotelV3\\HoaDonWindow.xaml.cs",
+              "RelativeDocumentMoniker": "HotelV3\\HoaDonWindow.xaml.cs",
+              "ToolTip": "E:\\HotelV3\\HotelV3\\HoaDonWindow.xaml.cs",
+              "RelativeToolTip": "HotelV3\\HoaDonWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T05:39:00.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "BookedService.cs",
+              "DocumentMoniker": "E:\\HotelV3\\DAL\\Models\\BookedService.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\BookedService.cs",
+              "ToolTip": "E:\\HotelV3\\DAL\\Models\\BookedService.cs",
+              "RelativeToolTip": "DAL\\Models\\BookedService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T10:35:58.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ServiceRepo.cs",
+              "DocumentMoniker": "E:\\HotelV3\\DAL\\Repositories\\ServiceRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repositories\\ServiceRepo.cs",
+              "ToolTip": "E:\\HotelV3\\DAL\\Repositories\\ServiceRepo.cs",
+              "RelativeToolTip": "DAL\\Repositories\\ServiceRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T01:31:29.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ServiceDetailRepo.cs",
+              "DocumentMoniker": "E:\\HotelV3\\DAL\\Repositories\\ServiceDetailRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repositories\\ServiceDetailRepo.cs",
+              "ToolTip": "E:\\HotelV3\\DAL\\Repositories\\ServiceDetailRepo.cs",
+              "RelativeToolTip": "DAL\\Repositories\\ServiceDetailRepo.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAxwBQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T01:31:22.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ServiceDetailService.cs",
+              "DocumentMoniker": "E:\\HotelV3\\BLL\\Service\\ServiceDetailService.cs",
+              "RelativeDocumentMoniker": "BLL\\Service\\ServiceDetailService.cs",
+              "ToolTip": "E:\\HotelV3\\BLL\\Service\\ServiceDetailService.cs",
+              "RelativeToolTip": "BLL\\Service\\ServiceDetailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T01:31:50.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Service.cs",
+              "DocumentMoniker": "E:\\HotelV3\\DAL\\Models\\Service.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\Service.cs",
+              "ToolTip": "E:\\HotelV3\\DAL\\Models\\Service.cs",
+              "RelativeToolTip": "DAL\\Models\\Service.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T10:59:01.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ServicesService.cs",
+              "DocumentMoniker": "E:\\HotelV3\\BLL\\Service\\ServicesService.cs",
+              "RelativeDocumentMoniker": "BLL\\Service\\ServicesService.cs",
+              "ToolTip": "E:\\HotelV3\\BLL\\Service\\ServicesService.cs",
+              "RelativeToolTip": "BLL\\Service\\ServicesService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T01:31:55.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "dbo.Service.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/ANH_CUONG_SQL_ANHCUONG/Hotel3/sa/SqlTable/dbo.Service.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/ANH_CUONG_SQL_ANHCUONG/Hotel3/sa/SqlTable/dbo.Service.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-11-13T10:46:44.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "RoomRepo.cs",
+              "DocumentMoniker": "E:\\HotelV3\\DAL\\Repositories\\RoomRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repositories\\RoomRepo.cs",
+              "ToolTip": "E:\\HotelV3\\DAL\\Repositories\\RoomRepo.cs",
+              "RelativeToolTip": "DAL\\Repositories\\RoomRepo.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAEwBAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T01:30:42.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "RoomOptionsWindow.xaml.cs",
+              "DocumentMoniker": "E:\\HotelV3\\HotelV3\\RoomOptionsWindow.xaml.cs",
+              "RelativeDocumentMoniker": "HotelV3\\RoomOptionsWindow.xaml.cs",
+              "ToolTip": "E:\\HotelV3\\HotelV3\\RoomOptionsWindow.xaml.cs",
+              "RelativeToolTip": "HotelV3\\RoomOptionsWindow.xaml.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAQwC0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T02:43:05.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "CheckOutWindow.xaml.cs",
+              "DocumentMoniker": "E:\\HotelV3\\HotelV3\\CheckOutWindow.xaml.cs",
+              "RelativeDocumentMoniker": "HotelV3\\CheckOutWindow.xaml.cs",
+              "ToolTip": "E:\\HotelV3\\HotelV3\\CheckOutWindow.xaml.cs",
+              "RelativeToolTip": "HotelV3\\CheckOutWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwCoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T01:42:36.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "RoomService.cs",
+              "DocumentMoniker": "E:\\HotelV3\\BLL\\Service\\RoomService.cs",
+              "RelativeDocumentMoniker": "BLL\\Service\\RoomService.cs",
+              "ToolTip": "E:\\HotelV3\\BLL\\Service\\RoomService.cs",
+              "RelativeToolTip": "BLL\\Service\\RoomService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T01:31:52.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "uedfpcoo..sql",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\AppData\\Local\\Temp\\uedfpcoo..sql",
+              "ToolTip": "C:\\Users\\ADMIN\\AppData\\Local\\Temp\\uedfpcoo..sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-11-12T03:42:02.246Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

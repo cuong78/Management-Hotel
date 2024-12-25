@@ -1,0 +1,125 @@
+﻿<Window x:Class="HotelV3.CreateSer" 
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+        Title="Book Detail" 
+        Height="750" 
+        Width="1145" 
+        Background="#ff2800" 
+        ResizeMode="NoResize" 
+        WindowStartupLocation="CenterScreen" 
+        Loaded="Window_Loaded">
+    <Window.Resources>
+        <Style TargetType="Label">
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Foreground" Value="#FF4500"/>
+            <Setter Property="Margin" Value="0,5,0,5"/>
+        </Style>
+
+        <Style TargetType="TextBox">
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Margin" Value="0,5,0,10"/>
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="Background" Value="#F5F5F5"/>
+            <Setter Property="BorderBrush" Value="#A9A9A9"/>
+            <Setter Property="BorderThickness" Value="1"/>
+        </Style>
+
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="#4CAF50"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Margin" Value="0,10,0,0"/>
+            <Setter Property="Padding" Value="10,5"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="BorderBrush" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" 
+                                BorderBrush="{TemplateBinding BorderBrush}" 
+                                BorderThickness="{TemplateBinding BorderThickness}" 
+                                CornerRadius="5">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#45A049"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+
+
+    <Grid>
+        <Label Content="Add Service" 
+               HorizontalAlignment="Left" 
+               Height="80" 
+               Margin="31,20,0,0" 
+               VerticalAlignment="Top" 
+               Width="659" 
+               FontWeight="Heavy" 
+               FontSize="50"
+               Foreground="Black"/>
+
+        <Rectangle HorizontalAlignment="Left" 
+                   Height="545" 
+                   Margin="38,144,0,0" 
+                   Stroke="Black" 
+                   VerticalAlignment="Top" 
+                   Width="875" 
+                   Fill="#ffff00"/>
+
+        <Label Content="Services" 
+               HorizontalAlignment="Left" 
+               Height="45" 
+               Margin="58,144,0,0" 
+               VerticalAlignment="Top" 
+               Width="123"
+              Foreground ="DarkGreen"
+               FontSize="29"
+              />
+
+        <ListBox x:Name="ServiceListBox" 
+                 ItemsSource="{Binding ServiceItems}" 
+                 HorizontalAlignment="Left" 
+                 Height="400" 
+                 Margin="58,200,0,0" 
+                 VerticalAlignment="Top" 
+                 Width="400">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding NameService}" 
+                                   Width="150" 
+                                   VerticalAlignment="Center"/>
+                        <TextBox Width="50" 
+                                 Margin="10,0,0,0" 
+                                 Text="{Binding Quantity, UpdateSourceTrigger=PropertyChanged}" 
+                                 VerticalAlignment="Center"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <Button x:Name="SaveButton" 
+                Content="Save" 
+                HorizontalAlignment="Left" 
+                Height="50" 
+                Margin="945,144,0,0" 
+                VerticalAlignment="Top" 
+                Width="165" 
+                Click="SaveButton_Click"/>
+        <Button x:Name="CloseButton" 
+                Content="Close" 
+                HorizontalAlignment="Left" 
+                Height="50" 
+                Margin="945,450,0,0" 
+                VerticalAlignment="Top" 
+                Width="165" 
+                Click="CloseButton_Click"/>
+    </Grid>
+</Window>

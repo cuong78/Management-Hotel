@@ -1,0 +1,92 @@
+﻿<Window x:Class="HotelV3.ServiceWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HotelV3"
+        mc:Ignorable="d"
+        Title="Thế Giới Điện Tử Xứ F - ver.24-SU" 
+        Height="685" Width="1265" 
+        Background="#CCFFCC" 
+        WindowStartupLocation="CenterScreen" 
+        ResizeMode="NoResize" 
+        Loaded="Window_Loaded">
+
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="#4CAF50"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="BorderBrush" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" 
+                                BorderBrush="{TemplateBinding BorderBrush}" 
+                                BorderThickness="{TemplateBinding BorderThickness}" 
+                                CornerRadius="5">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#45A049"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style TargetType="DataGrid">
+            <Setter Property="AutoGenerateColumns" Value="False"/>
+            <Setter Property="RowHeight" Value="30"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Margin" Value="10"/>
+            <Setter Property="BorderBrush" Value="#A9A9A9"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="AlternatingRowBackground" Value="#F0F0F0"/>
+            <Setter Property="RowBackground" Value="White"/>
+            <Setter Property="GridLinesVisibility" Value="Horizontal"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Label x:Name="HelloMsgLabel" 
+               Content="List Service" 
+               HorizontalAlignment="Center" 
+               Height="50" 
+               VerticalAlignment="Top" 
+               FontSize="25" 
+               FontStyle="Italic" 
+               Margin="0,20,0,0" />
+
+        <Button x:Name="QuitButton" 
+                Content="Quit" 
+                HorizontalAlignment="Right" 
+                Height="50" 
+                Margin="0,20,20,0" 
+                VerticalAlignment="Top" 
+                Width="100" 
+                Click="QuitButton_Click" />
+
+        <DataGrid x:Name="ServiceDataGrid" 
+                  HorizontalAlignment="Stretch" 
+                  VerticalAlignment="Stretch" 
+                  Margin="20,80,20,20">
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="IDText" Header="Service Detail ID" Width="100" Binding="{Binding ServiceDetailId}" />
+                <DataGridTextColumn x:Name="RoomText" Header="Room Number" Width="150" Binding="{Binding RoomNumberNavigation.RoomNumber}" />
+                <DataGridTextColumn x:Name="Nametext" Header="Name" Width="200" Binding="{Binding RoomNumberNavigation.GuestName}" />
+                <DataGridTextColumn x:Name="Phonetext" Header="Phone" Width="200" Binding="{Binding RoomNumberNavigation.PhoneNumber}" />
+                <DataGridTextColumn x:Name="ServiceText" Header="Service" Width="200" Binding="{Binding NameServiceNavigation.NameService}" />
+                <DataGridTextColumn x:Name="QuantityText" Header="Quantity" Width="140" Binding="{Binding Quantity}" />
+                <DataGridTextColumn x:Name="DateText" Header="Date Created" Width="140" Binding="{Binding DateCreated}" />
+                <DataGridTextColumn x:Name="StatusText" Header="Status" Width="140" Binding="{Binding TaskId}" />
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

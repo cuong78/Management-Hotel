@@ -1,0 +1,14 @@
+E:\PRN212\HotelV3\DAL\bin\Debug\net8.0\DAL.deps.json
+E:\PRN212\HotelV3\DAL\bin\Debug\net8.0\DAL.runtimeconfig.json
+E:\PRN212\HotelV3\DAL\bin\Debug\net8.0\DAL.dll
+E:\PRN212\HotelV3\DAL\bin\Debug\net8.0\DAL.pdb
+E:\PRN212\HotelV3\DAL\obj\Debug\net8.0\DAL.csproj.AssemblyReference.cache
+E:\PRN212\HotelV3\DAL\obj\Debug\net8.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\PRN212\HotelV3\DAL\obj\Debug\net8.0\DAL.AssemblyInfoInputs.cache
+E:\PRN212\HotelV3\DAL\obj\Debug\net8.0\DAL.AssemblyInfo.cs
+E:\PRN212\HotelV3\DAL\obj\Debug\net8.0\DAL.csproj.CoreCompileInputs.cache
+E:\PRN212\HotelV3\DAL\obj\Debug\net8.0\DAL.dll
+E:\PRN212\HotelV3\DAL\obj\Debug\net8.0\refint\DAL.dll
+E:\PRN212\HotelV3\DAL\obj\Debug\net8.0\DAL.pdb
+E:\PRN212\HotelV3\DAL\obj\Debug\net8.0\DAL.genruntimeconfig.cache
+E:\PRN212\HotelV3\DAL\obj\Debug\net8.0\ref\DAL.dll
